@@ -1,0 +1,58 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "First Post",
+      "text": "This is my first post",
+      "date": "4:07 PM, December 26, 2024."
+    },
+    {
+      "id": 2,
+      "title": "Second Post",
+      "text": "This is my second post",
+      "date": "4:09 PM, December 26, 2024."
+    },
+    {
+      "id": 3,
+      "title": "Third Post",
+      "text": "This is my third post",
+      "date": "4:12 PM, December 26, 2024."
+    },
+    {
+      "id": 4,
+      "title": "Fourth Post",
+      "text": "This is my fourth post",
+      "date": "4:14 PM, December 26, 2024."
+    },
+    {
+      "id": 5,
+      "title": "Fifth Post",
+      "text": "This is my fifth post",
+      "date": "4:16 PM, December 26, 2024."
+    },
+    {
+      "id": 6,
+      "title": "Sixth Post",
+      "text": "This is my sixth posts",
+      "date": "4:33 PM, December 26, 2024."
+    },
+    {
+      "id": 7,
+      "title": "Seventh Post",
+      "text": "This is my seventh post",
+      "date": "7:02 PM, December 26, 2024."
+    },
+    {
+      "id": 8,
+      "title": "Eighth Post",
+      "text": "This is my eighth post",
+      "date": "1:52 AM, December 27, 2024."
+    },
+    {
+      "id": 9,
+      "title": "Ninth Post",
+      "text": "This my ninth post",
+      "date": "7:51 PM, December 27, 2024."
+    }
+  ]
+}
