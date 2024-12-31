@@ -1,19 +1,20 @@
-*{
+* {
   font-family: Roboto, Red Hat Text, Arial;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body,html{
+body,
+html {
   height: 100%;
 }
-#root{
+#root {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-.App{
+.App {
   max-width: 500px;
   flex-grow: 1;
   margin-top: 20px;
@@ -22,7 +23,7 @@ body,html{
   position: relative;
   overflow: overlay;
 }
-.footer{
+.footer {
   position: fixed;
   bottom: 0px;
   background-color: blue;
@@ -35,17 +36,17 @@ body,html{
   color: white;
   font-size: 30px;
 }
-.header{
+.header {
   display: flex;
   flex-direction: column;
   position: fixed;
-  background-color:  white;
+  background-color: white;
   top: 0;
-  width:100%;
-  max-width: 480px; 
+  width: 100%;
+  max-width: 480px;
 }
-.title{
-  background-color: steelblue;
+.title {
+  background-color: blue;
   color: white;
   width: 100%;
   padding-block: 10px;
@@ -53,7 +54,11 @@ body,html{
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.search{
+textarea {
+  resize: none;
+  overflow-y: auto;
+}
+.search {
   width: 500px;
   height: 50px;
   font-size: 26px;
@@ -61,13 +66,12 @@ body,html{
   outline: none;
   border: none;
   color: steelblue;
-
 }
-.title-container{
+.title-container {
   display: flex;
   justify-content: center;
 }
-.form{
+.form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,17 +81,17 @@ body,html{
   overflow: hidden;
   margin-top: 20px;
 }
-.search-icon{
+.search-icon {
   font-size: 24px;
   cursor: pointer;
   color: rgb(66, 58, 58);
 }
-.notes-container{
+.notes-container {
   margin-top: 150px;
   width: 100%;
   padding-bottom: 100px;
 }
-.note-link{
+.note-link {
   text-decoration: none;
   color: initial;
   background-color: aqua;
@@ -95,44 +99,61 @@ body,html{
 .note-link :nth-child(2) {
   font-size: 20px;
 }
-.list-container{
-  background-color: gray;;
+.list-container {
+  background-color: gray;
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 5px;
   min-height: 120px;
-  
 }
 .list-container * {
   margin-bottom: 10px;
-  color: white
+  color: white;
 }
-.note-container{
+.note-container {
   margin-top: 30px;
   margin-top: 100px;
 }
-.note-container *{
+.note-container * {
   margin-bottom: 20px;
 }
-.name-container :nth-child(1){
+.name-container :nth-child(1) {
   font-size: 40px;
 }
-.name-container :nth-child(2){
+.name-container :nth-child(2) {
   font-size: 25px;
 }
-.name-container :nth-child(3){
+.name-container :nth-child(3) {
   font-size: 25px;
 }
-.svg-container{
+.svg-container {
   margin-left: 10px;
   margin-top: 100px;
 }
-.svg-container *{
+.edit-svg {
+  text-decoration: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+}
+.svg-edit {
+  width: 30px;
+  height: 30px;
+  color: black;
+}
+.svg-edit:hover {
+  color: green;
+}
+.trash-svg:hover {
+  color: red;
+}
+
+.svg-container * {
   margin-right: 100px;
   font-size: 30px;
   cursor: pointer;
 }
-.add{
+.add {
   position: fixed;
   border-radius: 50%;
   background-color: whitesmoke;
@@ -143,7 +164,7 @@ body,html{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.link-add{
+.link-add {
   text-decoration: none;
   color: blue;
   position: fixed;
@@ -153,31 +174,31 @@ body,html{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.addition{
+.addition {
   width: 100%;
   height: 100%;
 }
-.form-notes-container{
+.form-notes-container {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
 }
-.form-notes-container :is(:nth-child(1), :nth-child(2)){
+.form-notes-container :is(:nth-child(1), :nth-child(2)) {
   width: 100%;
   height: 50px;
   margin-bottom: 50px;
   font-size: 20px;
   padding-left: 20px;
 }
-.form-notes-container :nth-child(2){
+.form-notes-container :nth-child(2) {
   height: 300px;
 }
-.add-notes-container p{
+.add-notes-container p {
   font-size: 20px;
   margin-top: 120px;
   margin-bottom: 20px;
 }
-.add-button{
+.add-button {
   width: 100%;
   height: 50px;
   font-size: 20px;
@@ -185,5 +206,8 @@ body,html{
   color: white;
   border: none;
   outline: none;
+  transition: 0.15s opacity ease-in;
 }
-
+.add-button:hover {
+  opacity: 0.8;
+}
